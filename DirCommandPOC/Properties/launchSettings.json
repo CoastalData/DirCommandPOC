@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "DirCommandPOC": {
+      "commandName": "Project",
+      "commandLineArgs": "d:\\"
+    }
+  }
+}
