@@ -11,13 +11,13 @@ dotnet publish -r win-x64 -c Release /p:PublishSingleFile=true /p:IncludeNativeL
 
 About:
 ------
-The Fast File Enumerator is a culmination of research and development efforts to discover and measure the fastest method for enumerating and counting every file on large storage volumes. Traditional methods of enumeration, especially on vast filesystems with deep folder structures, can be time-consuming and resource-intensive. Our approach taps into the rapidity of the native `dir` command, combined with the power and flexibility of C# to deliver a performance-oriented solution.
+The DirCommand Proof of Concept application is a step in the research and development efforts to discover and measure the fastest method for enumerating and counting every file on large storage volumes. Traditional methods of enumeration, especially on vast filesystems with deep folder structures, can be time-consuming and resource-intensive. Our approach taps into the rapidity of the native `dir` command, combined with the power and flexibility of C# to deliver a performance-oriented solution.
 
 Besides being a part of our research to uncover efficient enumeration techniques, this tool doubles as a quick and reliable means to gauge storage performance on extensive volumes. Storage performance is a crucial metric in many scenarios, from system maintenance to capacity planning, and Fast File Enumerator offers a user-friendly yet robust mechanism to achieve this.
 
 Usage:
 ------
-1. Run the application by launching 'FastFileEnumerator.exe'.
+1. Run the application by launching 'DirCommandPOC.exe'.
 2. When prompted, provide the path of the directory you wish to enumerate.
 3. The application will start processing and display running statistics, updating every 10,000 files. These statistics include:
     - Total files processed
